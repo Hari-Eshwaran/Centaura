@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import "tailwindcss";
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  background: #f5f7fa;
+  color: #333;
+}
+
+/* Container Layout */
+.container {
+  background-image: url("we1.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: none;
+}
+
+.logo-container {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+
+
+
+
+
+/* Headings */
+h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.signup-subtitle {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+/* Form Styling */
+.signup-form {
+  width: 100%;
+}
+
+.signup-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"] {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 18px;
+  font-size: 14px;
+  transition: border 0.3s;
+}
+
+.signup-form input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Password Eye Icon */
+.password-wrapper {
+  position: relative;
+}
+
+.eye-icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  
+  cursor: pointer;
+  color: #888;
+  font-size: 18px;
+}
+
+/* Checkbox */
+.checkbox-wrapper {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  margin: 15px 0;
+}
+
+.checkbox-wrapper input {
+  margin-right: 10px;
+}
+
+/* Button */
+.create-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #006aff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.create-btn:hover {
+  background-color: #0051cc;
+}
+
+/* Footer Links */
+.footer-links {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  max-width: 400px;
+  color: #aaa;
+}
+
+.footer-links a {
+  color: #777;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+/* Right Section with Background Image */
+.right {
+  flex: 1;
+  max-width: 500px;
+  height: 90%;
+  background-image: url('we1.png'); /* adjust path as needed */
+  background-size: cover;
+  background-position: center right;
+  border-radius: 20px;
+}

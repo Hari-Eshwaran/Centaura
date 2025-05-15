@@ -1,0 +1,154 @@
+@import "tailwindcss";
+
+body, html {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .login-background {
+    min-height: 100vh;
+    background-image: url("we1.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .login-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 450px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 0.25rem;
+  }
+  
+  .subtitle {
+    font-size: 0.9rem;
+    color: gray;
+    margin-bottom: 1.5rem;
+  }
+  
+  .login-form {
+    text-align: left;
+  }
+  
+  .login-form label {
+    font-size: 0.85rem;
+    margin-bottom: 0.25rem;
+    display: flex;
+    color: #333;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  .password-field {
+    position: relative;
+  }
+  
+  .eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-80%);
+    cursor: pointer;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+  }
+  
+  .forgot-link {
+    text-decoration: none;
+    color: #1976d2;
+  }
+  
+  .sign-in-btn {
+    background-color: #1976d2;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+  }
+  
+   .divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .divider hr {
+    flex: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+  }
+  
+  .divider span {
+    margin: 0 10px;
+    font-size: 13px;
+    color: #777;
+  }
+  
+  .social-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .social-buttons button {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: white;
+    cursor: pointer;
+  }
+  
+  .social-buttons img {
+    height: 16px;
+    margin-right: 8px;
+  }
+  
+  .register-text {
+    font-size: 0.85rem;
+  }
+  
+  .register-text a {
+    color: #1976d2;
+    text-decoration: none;
+  }
+  
+  .footer-links {
+    position: absolute;
+    bottom: 1%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+    font-size: 0.8rem;
+    color: white !important;
+    max-width: 1200px;
+  }
+  
