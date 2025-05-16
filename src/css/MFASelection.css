@@ -13,7 +13,7 @@
     margin-bottom: 30px;
   }
   
-  h2 {
+  .mfa-h2 {
     font-size: 28px;
     margin-bottom: 10px;
   }
@@ -23,7 +23,7 @@
     margin-bottom: 25px;
   }
   
-  h3 {
+  .mfa-h3 {
     font-size: 18px;
     margin-bottom: 20px;
     color: #374151;

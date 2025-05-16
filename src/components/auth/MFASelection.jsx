@@ -42,13 +42,13 @@ const MFASelection = () => {
           className="mfa-container bg-white shadow-md rounded-lg"
           style={{ maxWidth: "700px", padding: "20px" }}
         >
-          <h2>Secure Your Account</h2>
+          <h2 className='mfa-h2'>Secure Your Account</h2>
           <p className="mfa-subtitle">
             Set up multi-factor authentication to add an extra layer of
             protection
           </p>
 
-          <h3>Choose Your Authentication Method</h3>
+          <h3 className='mfa-h3'>Choose Your Authentication Method</h3>
 
           <div className="mfa-options-grid">
             <div

@@ -6,6 +6,12 @@ import ForgotPassword from './components/auth/ForgotPassword'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { CompanyRegister } from './components/auth/CompanyRegister'
 import { AdminDashboard } from './components/Admin/AdminDashboard'
+import { AdminSettings } from './components/Admin/AdminSettings'
+import { DataAccess } from './components/Admin/DataAccess'
+import { AdminDelegation } from './components/Admin/AdminDelegation'
+import { ClientReports } from './components/Admin/ClientReports'
+import { AnalystDashboard } from './components/Analyst/AnalystDashboard'
+import { Mapview } from './components/Analyst/Mapview'
 
 
 const App = () => {
@@ -21,6 +27,12 @@ const App = () => {
           <Route path="/MFA" element={<MFASelection/>} />
           <Route path="/Forgot-password" element={<ForgotPassword/>} />
           <Route path="/dashboard" element={<AdminDashboard/>} />
+          <Route path="/admin-settings" element={<AdminSettings/>} />
+          <Route path="/data-access" element={<DataAccess/>} />
+          <Route path="/admin-delegation" element={<AdminDelegation/>} />
+          <Route path="/client-reports" element={<ClientReports/>} />
+          <Route path="/Analyst-Dashboard" element={<AnalystDashboard/>} />
+          <Route path="/Mapview" element={<Mapview/>}></Route>
         </Routes>
       </BrowserRouter>
     </div>
